@@ -1,0 +1,74 @@
+.header-container {
+  display: flex;
+  width: 100%;
+  background-color: black;
+  background-image: url("../../assets/fundo-azul.svg");
+  background-size: cover;
+  font: var(--font-title);
+  color: var(--color-white);
+}
+.header-container .first-step {
+  width: 50%;
+}
+
+.first-step-container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 13% 8% 16% 11%;
+}
+.first-step-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+.box {
+  width: 50%;
+}
+
+.header-container .first-step .first-step-container .title {
+  font: var(--font-title);
+  color: var(--color-white);
+  font-weight: 700;
+  width: 80%;
+  line-height: 48px;
+}
+.header-container .first-step .first-step-container .subtitle {
+  font: var(--font-subtitle);
+  color: var(--color-white);
+  font-weight: 700;
+  width: 80%;
+  margin: 5% 0;
+  line-height: 30px;
+}
+
+.first-step .first-step-container > p {
+  color: #50d9d4;
+  font-size: 14px;
+  margin: 10% auto 4% auto;
+  text-align: center;
+}
+.first-step .first-step-container > p > span {
+  font-weight: bold;
+}
+.first-step-box h6 {
+  font-size: 12px;
+}
+.box {
+  display: flex;
+  font-size: 12px;
+}
+
+.box-logo,
+.box-content {
+  align-self: center;
+}
+.box-content {
+  line-height: 16px;
+  margin: 10px;
+  margin-left: 20px;
+}
+.box-content h6 {
+  font-weight: 800;
+}
+.box-content p {
+  font-weight: 400;
+}

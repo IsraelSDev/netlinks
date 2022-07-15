@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #333;
+  background: #fff;
+  height: 100%;
+}
+:root {
+  --color-white: #fff;
+
+  --font-title: 2.3rem "Poppins", sans-serif;
+  --font-subtitle: 1.25rem "Poppins", sans-serif;
+  --font-text-title: 12px "Poppins", sans-serif bold;
+}
