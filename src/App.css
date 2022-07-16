@@ -13,8 +13,12 @@ body {
 }
 :root {
   --color-white: #fff;
+  --color-blue: #3039c3;
+  --color-pink: #ff4cb9;
+  --color-orange: #ff8412;
 
   --font-title: 2.3rem "Poppins", sans-serif;
   --font-subtitle: 1.25rem "Poppins", sans-serif;
   --font-text-title: 12px "Poppins", sans-serif bold;
+  --font-form-title: 36px "Poppins", sans-serif;
 }

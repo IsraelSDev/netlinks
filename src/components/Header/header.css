@@ -14,7 +14,7 @@
 .first-step-container {
   width: 80%;
   margin: 0 auto;
-  padding: 13% 8% 16% 11%;
+  padding: 15% 8% 16% 11%;
 }
 .first-step-box {
   display: flex;
@@ -30,6 +30,7 @@
   font-weight: 700;
   width: 80%;
   line-height: 48px;
+  margin-top: 20px;
 }
 .header-container .first-step .first-step-container .subtitle {
   font: var(--font-subtitle);
@@ -82,33 +83,30 @@
 }
 
 .images-container {
-  /* display: flex; */
-  /* flex-direction: column; */
   position: relative;
 }
 .layer {
-  /* width: 100%; */
   position: absolute;
 }
 .layer-woman {
-  top: 250px;
+  top: 50px;
   right: 5%;
   width: 660px;
   height: 670px;
 }
 .layer-one {
-  top: 230px;
+  top: 30px;
   right: 70%;
 }
 .layer-two {
-  top: 420px;
+  top: 220px;
   right: 10%;
 }
 .layer-three {
-  top: 250px;
+  top: 50px;
   right: 10%;
 }
 .layer-four {
-  top: 550px;
+  top: 350px;
   right: 10%;
 }

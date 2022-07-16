@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from "../../assets/logo.png";
+import Logo from "../../assets/logo.svg";
 import LogoBox from "../../assets/logo-box.png";
 
 import LayerOne from '../../assets/layers/layer-01.svg';
@@ -19,8 +19,8 @@ const Header = () => {
       <div className="first-step">
         <div className="first-step-container">
           <img src={Logo} alt="logo" />
-          <h1 className='title'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
-          <h6 className='subtitle'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h6>
+          <h1 className='title'>Agência especializada em SEO & Apaixonada por Vendas.</h1>
+          <h6 className='subtitle'>Agência especializada em SEO, apaixonada por ajudar empresas a venderem mais no Google através de metodologia comprovada, pessoas criativas e foco em resultados.</h6>
           <p>Lorem Ipsum <span>#dolor</span></p>
           <div className="first-step-box">
             <div className="box box-1">
@@ -69,8 +69,8 @@ const Header = () => {
             <img className='layer layer-three' src={LayerThree} alt="" />
             <img className='layer layer-four' src={LayerFour} alt="" />
           </div>
-          <Form className="form" />
         </div>
+          <Form className="form" />
       </div>
     </div>
   );
