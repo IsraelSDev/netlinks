@@ -72,3 +72,43 @@
 .box-content p {
   font-weight: 400;
 }
+
+/* SECOND STEP */
+
+.second-step {
+  width: 50%;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+.images-container {
+  /* display: flex; */
+  /* flex-direction: column; */
+  position: relative;
+}
+.layer {
+  /* width: 100%; */
+  position: absolute;
+}
+.layer-woman {
+  top: 250px;
+  right: 5%;
+  width: 660px;
+  height: 670px;
+}
+.layer-one {
+  top: 230px;
+  right: 70%;
+}
+.layer-two {
+  top: 420px;
+  right: 10%;
+}
+.layer-three {
+  top: 250px;
+  right: 10%;
+}
+.layer-four {
+  top: 550px;
+  right: 10%;
+}

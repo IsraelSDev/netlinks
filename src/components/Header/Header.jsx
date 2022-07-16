@@ -1,6 +1,16 @@
 import React from 'react';
 import Logo from "../../assets/logo.png";
 import LogoBox from "../../assets/logo-box.png";
+
+import LayerOne from '../../assets/layers/layer-01.svg';
+import LayerTwo from '../../assets/layers/layer-02.svg';
+import LayerThree from '../../assets/layers/layer-03.svg';
+import LayerFour from '../../assets/layers/layer-04.svg';
+
+import imageForm from '../../assets/header-photo.svg';
+
+import Form from '../Form/Form'
+
 import "./header.css";
 
 const Header = () => {
@@ -51,10 +61,16 @@ const Header = () => {
         </div>
       </div>
       <div className="second-step">
-
-
-    
-
+        <div className="image-form">
+          <div className="images-container">
+            <img className='layer layer-woman' src={imageForm} alt="form" />
+            <img className='layer layer-one' src={LayerOne} alt="" />
+            <img className='layer layer-two' src={LayerTwo} alt="" />
+            <img className='layer layer-three' src={LayerThree} alt="" />
+            <img className='layer layer-four' src={LayerFour} alt="" />
+          </div>
+          <Form className="form" />
+        </div>
       </div>
     </div>
   );
