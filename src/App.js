@@ -4,6 +4,7 @@ import Header from "./components/Header/Header.jsx";
 import Strategy from "./components/Strategy/Strategy";
 import About from "./components/About/About";
 import Slider from "./components/Slider/Slider";
+import Liders from "./components/Liders/Liders";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Strategy />
       <About />
       <Slider />
+      <Liders />
     </div>
   );
 }
