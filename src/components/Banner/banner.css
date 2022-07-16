@@ -1,0 +1,23 @@
+.banner-container {
+  width: 100%;
+  text-align: center;
+  background-color: var(--color-blue);
+  display: flex;
+  justify-content: center;
+  padding: 5% 0;
+}
+.banner-container h1 {
+  align-self: center;
+  font-size: 48px;
+  line-height: 56px;
+  font-weight: 700;
+  color: white;
+  display: flex;
+}
+.banner-container h1 > span {
+  text-transform: uppercase;
+  color: var(--color-cyan);
+  font-size: 69px;
+  font-weight: 900;
+  margin: 0 20px;
+}
