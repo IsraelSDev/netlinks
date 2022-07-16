@@ -70,7 +70,7 @@ const Header = () => {
             <img className='layer layer-four' src={LayerFour} alt="" />
           </div>
         </div>
-          <Form className="form" />
+        <Form className="form" />
       </div>
     </div>
   );

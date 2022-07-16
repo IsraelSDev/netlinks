@@ -1,0 +1,22 @@
+.strategy-container {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: -20px;
+  background-color: var(--color-strategy-bg);
+  padding-top: 150px;
+  padding-bottom: 100px;
+  color: var(--color-white);
+}
+.strategy-title {
+  font: var(--font-title);
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-size: 48px;
+}
+.strategy-title span {
+  font-size: 70px;
+  text-transform: uppercase;
+  color: #50d9d4;
+  font-weight: 800;
+  border-bottom: 4px solid black;
+}
