@@ -1,0 +1,15 @@
+.slider-container {
+  width: 100%;
+}
+.slider-content {
+  display: flex;
+  background: #3039c3;
+  opacity: 0.7;
+}
+.slider-content img {
+  mix-blend-mode: lighten;
+  height: fit-content;
+}
+.carousel.carousel-slider .control-arrow {
+  background: rgba(0, 0, 0, 0.5) !important;
+}
