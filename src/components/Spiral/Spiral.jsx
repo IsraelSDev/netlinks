@@ -5,7 +5,7 @@ import "./spiral.css";
 
 const Spiral = (props) => {
 
-  const { img, icon, title, text, flex } = props;
+  const { img, icon, title, text, flex, last } = props;
 
   return (
     <div className='spiral-container'>
@@ -21,7 +21,8 @@ const Spiral = (props) => {
           <div className="icon-container">
             <img src={icon ? icon : iconDef} alt="" />
           </div>
-          <div className="icon-line"></div>
+          <div className={"icon-line"}></div>
+          {last ? <div className={"end-line"}></div> : null}
         </div>
 
         <div className="spiral-content-text">

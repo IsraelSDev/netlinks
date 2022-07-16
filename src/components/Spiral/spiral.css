@@ -58,3 +58,11 @@
   font-weight: 400;
   line-height: 36px;
 }
+.end-line {
+  width: 30px;
+  height: 30px;
+  background-color: var(--color-cyan);
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-left: calc(50% - 15px);
+}
