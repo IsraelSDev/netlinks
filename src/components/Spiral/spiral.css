@@ -1,7 +1,6 @@
 .spiral-container {
   width: 100%;
   padding: 20px auto;
-  margin-top: 150px;
 }
 .spiral-content {
   display: flex;
@@ -16,11 +15,15 @@
   display: flex;
   border-radius: 50%;
   margin: 0 auto;
-  margin-left: calc(auto -30px);
+  margin-left: calc(50% - 30px);
 }
 .icon-container img {
   align-self: center;
   margin: 0 auto;
+}
+
+.icon-wraper {
+  width: 3%;
 }
 
 .icon-line {
@@ -40,8 +43,8 @@
   width: 2%;
 }
 .spiral-content-text {
-  width: 48%;
-  padding: 0 40px;
+  width: 48.5%;
+  padding: 4%;
 }
 .spiral-content-text h1 {
   text-align: left;
