@@ -7,6 +7,7 @@ import Slider from "./components/Slider/Slider";
 import Liders from "./components/Liders/Liders";
 import Banner from "./components/Banner/Banner";
 import Clients from "./components/Clients/Clients";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Liders />
       <Banner />
       <Clients />
+      <Contact />
     </div>
   );
 }
