@@ -69,6 +69,7 @@ body {
     width: 80% !important;
     top: 0 !important;
     max-height: initial !important;
+    border-radius: 30px !important;
   }
   .statistic-resume {
     padding: 15% 9% 7% 13% !important;
