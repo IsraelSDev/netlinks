@@ -187,6 +187,9 @@ body {
   .first-step-container img {
     width: 100% !important;
   }
+  .first-step-box {
+    justify-content: center !important;
+  }
 }
 @media (max-width: 550px) {
   input {
