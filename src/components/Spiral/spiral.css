@@ -39,6 +39,10 @@
 .spiral-content-pic {
   width: 45%;
 }
+.spiral-content-pic img {
+  max-width: 350px;
+}
+
 .spiral-content-line {
   width: 2%;
 }

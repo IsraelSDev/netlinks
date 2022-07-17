@@ -27,3 +27,151 @@ body {
   --font-text-title: 12px "Poppins", sans-serif bold;
   --font-form-title: 36px "Poppins", sans-serif;
 }
+
+/*RESPONSIVE*/
+
+@media (max-width: 1250px) {
+  .box {
+    min-width: 400px;
+  }
+  .second-step {
+    width: 100%;
+  }
+  .form-container {
+    max-width: 600px;
+    margin-top: 50%;
+  }
+  .layer-woman {
+    top: 0;
+    right: 20%;
+    width: 660px;
+    height: 670px;
+  }
+  .spiral-content {
+    flex-direction: column-reverse !important;
+    align-items: center;
+  }
+  .spiral-content-text {
+    width: 100% !important;
+  }
+  .spiral-content-text p {
+    width: 100%;
+    margin: 5% 0px 0px 2%;
+  }
+  .about-overlay {
+    padding: 2% !important;
+  }
+  .why-us {
+    font-size: 22px;
+    width: 200px;
+  }
+  .statistic-wraper {
+    width: 50% !important;
+    top: 0 !important;
+    max-height: initial !important;
+  }
+  .statistic-resume {
+    padding: 15% 9% 7% 13% !important;
+  }
+  .statistic-boxes {
+    flex-direction: column;
+  }
+  .box-statistic {
+    width: 90% !important;
+    margin: 0 auto;
+  }
+  .box-statistic p {
+    text-align: center !important;
+  }
+  .about-unidades-container {
+    width: 100% !important;
+  }
+  .box-destaq {
+    margin-bottom: 0 !important;
+  }
+  .unity {
+    font-size: 20px !important;
+    width: 100px !important;
+    margin-top: 5% !important;
+  }
+  .liders-container {
+    padding: 2% !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .first-liders-section {
+    width: 80% !important;
+    margin: 0 auto !important;
+  }
+  .first-liders-section p {
+    width: 80% !important;
+  }
+  .second-liders-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
+  }
+  .box-lider {
+    width: 80% !important   ;
+  }
+  .box-lider:first-of-type {
+    margin-top: 25% !important;
+  }
+  .banner-container h1 {
+    flex-direction: column;
+  }
+
+  .client-header {
+    width: 100% !important;
+    justify-content: center !important;
+    flex-direction: column !important;
+  }
+  .client-logo {
+    width: 100% !important;
+    text-align: center !important;
+    margin: 20px 0 !important;
+  }
+  .client-description {
+    width: 100% !important;
+    padding: 30px 50px !important;
+  }
+  .client-datas {
+    flex-direction: column !important;
+  }
+  .client-datas-statistics {
+    width: 100% !important;
+    padding: 0 10px !important;
+  }
+  .contact-container {
+    flex-direction: column-reverse !important;
+  }
+  .contact-form {
+    padding: 20px !important;
+  }
+  .contact-form h3 span {
+    font-size: 75px !important;
+  }
+  .client-datas-image {
+    max-width: 500px !important;
+  }
+  .contact-form p {
+    width: 100% !important;
+  }
+  .contact-form form input {
+    width: 100% !important;
+  }
+  .contact-photo {
+    width: 100% !important;
+    margin-top: 0px !important;
+  }
+  .contact-photo img {
+    max-width: -webkit-fill-available !important;
+    height: 100%;
+    margin-bottom: -10px !important;
+  }
+}

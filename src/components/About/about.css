@@ -62,12 +62,14 @@
 
 .statistic-boxes {
   padding: 0 20px;
+  justify-content: center;
 }
 
 .box-statistic {
   display: flex;
   flex-direction: column;
   padding: 5%;
+  width: 25%;
 }
 .box-statistic h6 {
   font-size: 58px;
@@ -77,10 +79,9 @@
   font-size: 26px;
   line-height: 30px;
   color: #212121;
-  width: 100%;
+  width: 120px;
   text-align: left;
   font-weight: 700;
-  width: 120px;
   margin: 0 auto;
 }
 .box-statistic span {
@@ -97,10 +98,13 @@
   text-align: center;
   color: var(--color-blue);
   margin-bottom: -30px;
+  padding: 3%;
+  text-align: center;
 }
 .box-destaq p {
   color: var(--color-blue);
   margin: 2% 0;
+  width: 100%;
 }
 .box-destaq span {
   color: #212121;
@@ -159,4 +163,28 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 25px;
+}
+@media screen and (max-width: 1380px) {
+  .about-container h2 {
+    font-size: 45px;
+  }
+  .box-statistic h6 {
+    font-size: 45px;
+  }
+  .box-statistic p {
+    font-size: 23px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .icon-box {
+    width: 30%;
+  }
+  .desc-box {
+    width: 85%;
+  }
+}
+@media screen and (max-width: 1480px) {
+  .icon-box {
+    padding: 20px 10px;
+  }
 }

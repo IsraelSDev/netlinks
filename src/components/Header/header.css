@@ -14,7 +14,7 @@
 .first-step-container {
   width: 80%;
   margin: 0 auto;
-  padding: 15% 8% 16% 11%;
+  padding: 15% 0% 17% 0%;
 }
 .first-step-box {
   display: flex;
@@ -109,4 +109,26 @@
 .layer-four {
   top: 350px;
   right: 10%;
+}
+
+@media screen and (max-width: 1440px) {
+  .first-step-container {
+    width: 80%;
+  }
+  .header-container .first-step .first-step-container .subtitle {
+    width: 85%;
+  }
+
+  .second-step {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .header-container {
+    flex-direction: column;
+  }
+  .header-container .first-step {
+    width: 100%;
+  }
 }
