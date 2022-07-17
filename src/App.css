@@ -55,8 +55,8 @@ body {
     width: 100% !important;
   }
   .spiral-content-text p {
-    width: 100% !important !important;
-    margin: 5% 0px 0px 2% !important !important;
+    width: 100% !important;
+    margin: 5% 0px 0px 2% !important ;
   }
   .about-overlay {
     padding: 2% !important;
@@ -157,7 +157,7 @@ body {
     font-size: 75px !important;
   }
   .client-datas-image {
-    max-width: 500px !important;
+    width: 100% !important;
   }
   .contact-form p {
     width: 100% !important;
@@ -173,5 +173,10 @@ body {
     max-width: -webkit-fill-available !important;
     height: 100% !important;
     margin-bottom: -10px !important;
+  }
+}
+@media (max-width: 550px) {
+  input {
+    font-size: 20px !important;
   }
 }
