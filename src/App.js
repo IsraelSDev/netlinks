@@ -8,6 +8,7 @@ import Liders from "./components/Liders/Liders";
 import Banner from "./components/Banner/Banner";
 import Clients from "./components/Clients/Clients";
 import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Banner />
       <Clients />
       <Contact />
+      <Footer />
     </div>
   );
 }

@@ -13,10 +13,10 @@ const Contact = () => {
         <h3>Vamos <br /><span>conversar?</span></h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis interdum porta arcu vel vulputate. Morbi quis egestas dui. Integer nibh mauris, pulvinar eu tempus eget, facilisis et nunc.</p>
         <form>
-          <input type="text" name="" id="" />
-          <input type="url" name="" id="" />
-          <input type="email" name="" id="" />
-          <input type="tel" name="" id="" />
+          <input type="text" name="" id="" placeholder='Nome' />
+          <input type="url" name="" id="" placeholder='Seu site' />
+          <input type="email" name="" id="" placeholder='Email' />
+          <input type="tel" name="" id="" placeholder='Telefone' />
           <input type="submit" value="Falar com Especialista" />
         </form>
       </div>
