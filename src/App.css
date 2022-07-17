@@ -32,20 +32,20 @@ body {
 
 @media (max-width: 1250px) {
   .box {
-    min-width: 400px;
+    min-width: 400px !important;
   }
   .second-step {
-    width: 100%;
+    width: 100% !important;
   }
   .form-container {
-    max-width: 600px;
-    margin-top: 50%;
+    max-width: 600px !important;
+    margin-top: 50% !important;
   }
   .layer-woman {
-    top: 0;
-    right: 20%;
-    width: 660px;
-    height: 670px;
+    top: 0 !important;
+    right: 20% !important;
+    width: 660px !important;
+    height: 670px !important;
   }
   .spiral-content {
     flex-direction: column-reverse !important;
@@ -55,15 +55,15 @@ body {
     width: 100% !important;
   }
   .spiral-content-text p {
-    width: 100%;
-    margin: 5% 0px 0px 2%;
+    width: 100% !important !important;
+    margin: 5% 0px 0px 2% !important !important;
   }
   .about-overlay {
     padding: 2% !important;
   }
   .why-us {
-    font-size: 22px;
-    width: 200px;
+    font-size: 22px !important;
+    width: 200px !important;
   }
   .statistic-wraper {
     width: 50% !important;
@@ -74,11 +74,11 @@ body {
     padding: 15% 9% 7% 13% !important;
   }
   .statistic-boxes {
-    flex-direction: column;
+    flex-direction: column !important;
   }
   .box-statistic {
     width: 90% !important;
-    margin: 0 auto;
+    margin: 0 auto !important;
   }
   .box-statistic p {
     text-align: center !important;
@@ -96,9 +96,9 @@ body {
   }
   .liders-container {
     padding: 2% !important;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
   }
   .first-liders-section {
     width: 80% !important;
@@ -108,13 +108,13 @@ body {
     width: 80% !important;
   }
   .second-liders-section {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: center;
-    align-content: center;
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    flex-direction: column !important;
+    flex-wrap: nowrap !important;
+    align-items: center !important;
+    align-content: center !important;
   }
   .box-lider {
     width: 80% !important   ;
@@ -123,7 +123,7 @@ body {
     margin-top: 25% !important;
   }
   .banner-container h1 {
-    flex-direction: column;
+    flex-direction: column !important;
   }
 
   .client-header {
@@ -171,7 +171,7 @@ body {
   }
   .contact-photo img {
     max-width: -webkit-fill-available !important;
-    height: 100%;
+    height: 100% !important;
     margin-bottom: -10px !important;
   }
 }
