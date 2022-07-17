@@ -181,6 +181,9 @@ body {
   .spiral-content-pic {
     width: 100% !important;
   }
+  .contact-form h3 span {
+    font-size: 55px !important;
+  }
 }
 @media (max-width: 550px) {
   input {
