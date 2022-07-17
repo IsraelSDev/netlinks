@@ -184,6 +184,9 @@ body {
   .contact-form h3 span {
     font-size: 55px !important;
   }
+  .first-step-container img {
+    width: 100% !important;
+  }
 }
 @media (max-width: 550px) {
   input {
