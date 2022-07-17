@@ -178,8 +178,9 @@ body {
   .box-unidade {
     margin: 10px 0 !important;
   }
-}
-@media (max-width: 1160px) {
+  .spiral-content-pic {
+    width: 100% !important;
+  }
 }
 @media (max-width: 550px) {
   input {
